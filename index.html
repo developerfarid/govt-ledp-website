@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e5be74648c.js" crossorigin="anonymous"></script>
+
+    <title>Learning and Earning</title>
+    <link rel="icon" href="img/govt_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="f-header">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <img class="left" src="img/ictdd.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <img class="" src="img/ledp.apng" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <img class="right" src="img/mujib100.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------navebar------ -->
+        <div class="container f-nav px-0">
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <nav class="navbar navbar-expand-lg bg-success text-i">
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 px-3 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Course Registration/Assesment</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="course.html">Course Module-2020</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="class.html">Class Schedule</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="success.html">Success Story</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-expanded="false">
+                                            Attendance
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="attendance.html">Attendance Report</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="faq.html">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="log.html">Login</a>
+                                    </li>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- ----------------  form tittle---------- -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Student Registration Form</h1>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Please enter relevent information</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4>Mandatory Field*</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------form----------------- -->
+
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label for="district" class="form-label">District (<code>Institute District: Where you want
+                                    to do your course</code>)*</label><br>
+
+                            <select class="custom-select w-100" name="" id="">
+                                <option selected>--Select One--</option>
+                                <option value="">Dhaka</option>
+                                <option value="">Manikgonj</option>
+                                <option value="">Pabna</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="district" class="form-label">Course*</label><br>
+
+                            <select class="custom-select w-100" name="" id="">
+                                <option selected>--Select One--</option>
+                                <option value="">Web design & Development - 2020(2020,February) </option>
+                                <option value="">Graphic Design - (2020,February)</option>
+                                <option value="">Digital Marketing (2020,February)</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label for="student name" class=" col-form-label">Student Name*</label>
+                            <div class="w-100">
+                                <input type="text" class="w-100" id="staticstudent" value="">
+                            </div>
+                        </div>
+                        <div class=" row">
+                            <label for="father name" class=" col-form-label">Father Name*</label>
+                            <div class="w-100">
+                                <input type="text" class="w-100" id="staticfather" value="">
+                            </div>
+                        </div>
+                        <div class=" row">
+                            <label for="mother name" class=" col-form-label">Mother Name*</label>
+                            <div class="w-100">
+                                <input type="text" class="w-100" id="staticmother" value="">
+                            </div>
+                        </div>
+                        <fieldset class="my-2 p-3 ">
+                            <legend>Date of Birth*</legend>
+                            <label for="birthday">Day:</label>
+                            <select class="custom-select" name="" id="">
+                                <option selected>Select One</option>
+                                <option value="">1 </option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4 </option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7 </option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10 </option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13 </option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16 </option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19 </option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22 </option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27 </option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                            <label for="birthday">Month:</label>
+                            <select class="custom-select" name="" id="">
+                                <option selected>Select One</option>
+                                <option value="">1 </option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4 </option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7 </option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10 </option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                            </select>
+                            <label for="birthday">Years:</label>
+                            <select class="custom-select" name="" id="">
+                                <option selected>Select One</option>
+                                <option value="">1991 </option>
+                                <option value="">1992</option>
+                                <option value="">1993</option>
+                                <option value="">1994</option>
+                                <option value="">1995</option>
+                                <option value="">1996</option>
+                                <option value="">1996</option>
+                                <option value="">1997</option>
+                                <option value="">1998</option>
+                                <option value="">1999 </option>
+                                <option value="">2000</option>
+                                <option value="">2001</option>
+                                <option value="">2002 </option>
+                                <option value="">2003</option>
+                                <option value="">2004</option>
+                                <option value="">2005 </option>
+                                <option value="">2006</option>
+                                <option value="">2007</option>
+                                <option value="">2008 </option>
+                                <option value="">2009</option>
+                                <option value="">2010</option>
+                                <option value="">2011 </option>
+                                <option value="">2012</option>
+                                <option value="">2013</option>
+                                <option value="">2014</option>
+                                <option value="">2015</option>
+                                <option value="">2016</option>
+                                <option value="">2017</option>
+                                <option value="">2018</option>
+                                <option value="">2019</option>
+                                <option value="">2020</option>
+                            </select>
+
+
+                        </fieldset>
+
+                        <label for="gender">Gender*</label>
+                        <input type="radio" value="Male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" value="Female" name="gender">
+                        <label for="male">Female</label><br>
+
+                        <label for="phy" class="mt-2 ">Physically Handicapped*</label>
+                        <input type="radio" value="no" name="phy" class="mx-2">
+                        <label for="no">NO</label>
+                        <input type="radio" value="yes" name="phy" class="mx-2">
+                        <label for="yes">Yes</label><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="w-100">
+                        <div id="emailHelp" class="form-text">(e.g: example@mail.com)</div>
+                        <label for="phone number" class=" col-form-label">Phone (Must be 11 Digits)*</label>
+                        <input type="text" maxlength="11" class="w-100">
+                        <div id="phoneHelp" class="form-text"> This value is required. <br>
+
+                            (e.g:0155123456)</div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <label for="identification">Identificition Type*</label><br>
+                        <select class="custom-select w-100" name="" id="">
+                            <option selected>Select One</option>
+                            <option value="">Birth Certificate No. </option>
+                            <option value="">National ID</option>
+                        </select>
+                        <div id="idHelp" class="form-text"> Identification No. (Must be 10 digits for new NID or 17
+                            digits for old NID. If your National ID is 13 digits, then please add your birth year with
+                            the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</div>
+                        <input type="text" class="w-100">
+                        <label for="home">Home District*</label>
+                        <select class="custom-select w-100" name="" id="">
+                            <option selected>Select One</option>
+                            <option value="">Bandarban </option>
+                            <option value="">Barisal</option>
+                            <option value="">Bhola</option>
+                            <option value="">Chadpur</option>
+                            <option value="">Manikgonj</option>
+                            <option value="">Pabna</option>
+                            <option value="">Ragshi</option>
+                            <option value="">Nator</option>
+                            <option value="">Nelfmiry</option>
+                            <option value="">Chapinawabang</option>
+                            <option value="">Comilla</option>
+                            <option value="">Coxs-bazar</option>
+                            <option value="">Feni </option>
+                            <option value="">Faridpur</option>
+                            <option value="">Dinajpur</option>
+                            <option value="">Gopalanj </option>
+                            <option value="">Magura</option>
+                            <option value="">Jamalpur</option>
+                            <option value="">Kushtia</option>
+                            <option value="">Khulna</option>
+                            <option value="">Jessor</option>
+                            <option value="">Kurigram</option>
+                            <option value="">Joypurhat</option>
+                            <option value="">Mymensing</option>
+                            <option value="">Munshiganj</option>
+                            <option value="">Sylhet</option>
+                            <option value="">Sunamganj </option>
+                            <option value="">Sirajgonj</option>
+                            <option value="">Sherpur</option>
+                            <option value="">Satkhira</option>
+                            <option value="">Natore</option>
+                        </select>
+                        <label for="Upazila home">Upazila*</label>
+                        <select class="custom-select w-100" name="" id="">
+                            <option selected>Select One</option>
+                        </select>
+                        <label for="Inputvillage" class="form-label">Village/House No./Road No./Other
+                            Alternative*</label>
+                        <input type="text" class="form-control" id="Inputvillge">
+                        <label for="Inputpost" class="form-label">
+                            Post Office*</label>
+                        <input type="text" class="form-control" id="Inputpost">
+                        <label for="home">Educational Qualification* (Higher Level)
+                        </label>
+                        <select class="custom-select w-100" name="" id="">
+                            <option selected>--Select One--</option>
+                            <option value="">Higher Secondary/Equivalent </option>
+                            <option value="">Bachelor</option>
+                            <option value="">Master</option>
+                            <option value="">Phd</option>
+                        </select>
+
+                        <label for="computer">Have any computer?*</label>
+                        <input type="radio" value="Yes" name="computer">
+                        <label for="male" class="">Yes</label>
+                        <input type="radio" value="No" name="computer">
+                        <label for="male">No</label><br>
+                        <label for="computer">Photograph*</label><br>
+                        <input type="file" name="" id="">
+                        <div id="idHelp" class="form-text"> (File type must be jpg or jpeg or png. Maximum file size 2
+                            mb.)</div>
+                        <label for="computer">Signature*</label><br>
+                        <input type="file" name="" id="">
+                        <div id="idHelp" class="form-text"> (File type must be jpg or jpeg or png. Maximum file size 2
+                            mb.)</div>
+                        <input type="submit" value="Submit Data" class="btn-primary">
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
